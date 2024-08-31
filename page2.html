@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Preferences</title>
+</head>
+
+<style>
+.page2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:bisque;
+    padding: 20px;
+    font-size: medium;
+}
+</style>
+
+<body>
+    
+    <header>
+        <h2>Travel Preferences</h2>
+    </header>
+
+    <div class="page2">
+    <form action="success.html">
+
+        <label>preferred Flight Date</label>
+        <input type="date" name="flight"  required>
+        <br><br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.959718296483!2d80.16351606952007!3d12.98215549920838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e1f5da86397%3A0x21092f216ee26e47!2sChennai%20International%20Airport!5e0!3m2!1sen!2sin!4v1723637374625!5m2!1sen!2sin" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br><br>
+        <label>
+        Would you like to receive a recording of your space flight experience? 
+        </label><br><br>
+
+        <input type="radio" id="yes" name="vaccine" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="vaccine" value="no">
+        <label for="no">No</label><br><br>
+
+        <label>Preferred Meal Option:</label>
+        <select name="Meal" id="Meal">
+           
+            <option value="1">Veg</option>
+            <option value="2">Non-Veg</option>
+
+        </select><br><br>
+
+        <input type="submit" value="register">
+        </div>
+    </form>
+
+</body>
+</html>
